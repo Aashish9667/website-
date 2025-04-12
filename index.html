@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="/src/styles.css" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+   <title>Document</title>
+</head>
+
+<body class="bg-orange-50 text-gray-800">
+  
+  <nav class="flex justify-between items-center p-6 bg-red-600 text-white">
+    <div class="text-2xl font-bold">Burger King</div>
+    <ul class="flex space-x-6">
+      <li><a href="#" class="hover:text-yellow-300">Home</a></li>
+      <li><a href="#" class="hover:text-yellow-300">Menu</a></li>
+      <li><a href="#" class="hover:text-yellow-300">Combo</a></li>
+      <li><a href="#" class="hover:text-yellow-300">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <section id="home" class="flex flex-col md:flex-row items-center justify-between px-8 py-16 bg-yellow-100">
+    <div class="md:w-1/2 mb-8 md:mb-0">
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Flame-Grilled Perfection</h1>
+      <p class="text-lg mb-6">Get your hands on the King of Burgers, hot and juicy straight off the grill.</p>
+      <a href="#" class="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-xl transition">
+        Order Now
+      </a>
+    </div>
+    <div class="md:w-1/2">
+      <img src="hero-background1.jpg" alt="Burger King Burger" class="rounded-xl shadow-xl w-full max-w-md mx-auto" />
+    </div>
+  </section>
+  <Section id="menu" class="py-20 bg-red-600 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-3xl font-bold mb-6 text-black-400 underline">Varietise of King Buger </h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="bg-yellow-100 p-6 rounded-lg">Hamburger</div>
+        <div class="bg-yellow-100 p-6 rounded-lg">Classic Burger</div>
+        <div class="bg-yellow-100 p-6 rounded-lg">Turkey Burger</div>
+        <div class="bg-yellow-100 p-6 rounded-lg">Cheese Burger</div>
+      </div>
+    </div>
+  </Section>
+  <Section id="combo" class="py-20 bg-yellow-100 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-3xl font-bold mb-6 text-black-400 underline">Combo</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="bg-red-600 p-6 rounded-lg">Paneer Burger and coldrink Combo</div>
+        <div class="bg-red-600 p-6 rounded-lg">2 Masala Gril Burger Combo</div>
+        <div class="bg-red-600 p-6 rounded-lg">Burger Wurger Special Combo</div>
+        <div class="bg-red-600 p-6 rounded-lg">Veg Burger Combo and Coldrink
+        </div>
+      </div>
+    </div>
+  </Section>
+  <section id="contact" class="py-20 bg-red-600 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-6 text-black-400 underline">Contact</h3>
+      <p class="text-gray-300 mb-6">Reach out via email: <a href="mailto:you@example.com" class="text-yellow-100">burger.king@gmail.com</a></p>
+    </div>
+  </section>
+
+  <footer class="text-center py-6 bg-yellow-100 text-black mt-8 ">
+    &copy; 2025 Burger King. All rights reserved.
+  </footer>
+
+
+  
+</body>
+</html>
